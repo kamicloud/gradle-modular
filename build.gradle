@@ -2,6 +2,10 @@ allprojects {
 	version = "1.0"
 }
 
+wrapper {
+    gradleVersion = '6.1'
+}
+
 subprojects {
 	apply plugin: 'java'
 	apply plugin: 'maven'
